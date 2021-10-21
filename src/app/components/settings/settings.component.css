@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting {
+  margin-top: 80px;
+}
+
+.setting h2 {
+  font-size: 4em;
+  color: rgb(224, 72, 72);
+  font-weight: 800;
+}
+p {
+  font-size: 1.2em;
+}

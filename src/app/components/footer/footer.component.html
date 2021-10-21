@@ -1,0 +1,32 @@
+<footer class="footer">
+  <div class="main-div-footer">
+    <div class="row">
+      <div class="col-4 text-center">
+        <a
+          routerLink="/home"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          ><i class="fas fa-home"></i></a
+        ><br />
+        <small> Home</small>
+      </div>
+      <div class="col-4 text-center">
+        <a
+          routerLinkActive="active"
+          type="button"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          <i class="fas fa-plus-square"></i></a
+        ><br />
+        <small> New Post</small>
+      </div>
+      <div class="col-4 text-center">
+        <a routerLink="/settings" routerLinkActive="active">
+          <i class="fas fa-cog"></i> </a
+        ><br />
+        <small> Settings</small>
+      </div>
+    </div>
+  </div>
+</footer>

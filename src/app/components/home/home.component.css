@@ -1,0 +1,81 @@
+.nav-div {
+  width: 100%;
+  margin: 12px 5px 0 5px;
+}
+
+input {
+  width: 100%;
+
+  border-radius: 50px;
+}
+
+#main-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.col-md-6 {
+  -moz-box-shadow: 0 0 4px #ccc;
+  -webkit-box-shadow: 0 0 4px #ccc;
+  box-shadow: 0 0 4px #ccc;
+  margin: 10px;
+}
+
+.text-div {
+  margin: 5px;
+  height: 130px;
+  overflow: hidden;
+}
+
+.delete-div {
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+.delete-div button {
+  margin: 5px;
+}
+
+.show {
+  overflow: visible;
+  height: auto;
+}
+
+#showMore {
+  margin: 0 0 4px 5px;
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 9px;
+  height: 20px;
+
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+#showMore:hover {
+  background-color: #f7fafa;
+}
+
+#showMore:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
